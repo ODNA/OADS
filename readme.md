@@ -160,6 +160,19 @@ Gives the date of the next day passed.
 - |day: The day you want to get its date.
     "Monday"|"Tuesday"|"Wednesday"|"Thursday"|"Friday"|"Saturday"|"Sunday"
 
+#### Function
+To mark a variable as function, add `()`.
+
+Put inside the parentheses, the function arguments and describe them under the function's description.
+
+Eg:
+```javascript
+load(callback("element"))
+```
+Loads element.
+- callback(): The callback function.
+    - "element": The element loaded.
+
 #### Other
 For any other type you can write the type name before the variable.
 
