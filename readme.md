@@ -70,6 +70,15 @@ array.join(separator*)
 ```
 > You understand from this, that if the parameter isn't followed by `*`, it means that it is **required**.
 
+### Rest parameters
+
+Just as you write it in your code, just add `...` before the parameter name to mention that the variable takes all the rest arguments.
+
+Eg:
+```javascript
+sort(...numbers)
+```
+
 ### Variable Types
 Now will be discussing variable types, this includes parameters and return values.
 #### String
@@ -163,7 +172,7 @@ Gives the date of the next day passed.
 #### Function
 To mark a variable as function, add `()`.
 
-Put inside the parentheses, the function arguments and describe them under the function's description.
+Put inside the parentheses, the function parameters and describe them under the function's description.
 
 Eg:
 ```javascript
