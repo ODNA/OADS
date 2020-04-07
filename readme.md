@@ -2,15 +2,16 @@
 OADS, For **O**dna **A**PI **D**ocumentation **S**tandards, is a proposal for a javascript unified documentation writing style.
 
 ## Quick Example
-> ```javascript
+
+```javascript
 presentMe("name", #age*) => "msg"
 ```
 Gives a textual presentation of a person.
 
-> - "name": The person's name.
+- "name": The person's name.
 - #age*: The person's age.
 
-> Eg:
+Eg:
  ```javascript
 var p = presentMe('Mohamed', 25);
 // p: 'This is Mohamed, he/she is 25 years old'
